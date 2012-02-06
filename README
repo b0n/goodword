@@ -1,1 +1,6 @@
 script. send goodword to email address.
+
+$ php b.php abc
+
+$crontab -l
+2 * * * * cd /hoge/fuga; php b.php abc > /dev/null 2>&1
